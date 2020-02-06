@@ -1,0 +1,11 @@
+
+1: Start MongoDB server 
+    Mac
+        mongod --config /usr/local/etc/mongod.conf
+    Windows
+        C:\"Program Files"\MongoDB\Server\4.2\bin> mongod
+
+
+2: Start node server
+    node index.js
+
