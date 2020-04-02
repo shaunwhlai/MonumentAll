@@ -14,4 +14,4 @@ app.use(express.json())
 const testRouter = require('./routes/routes')
 app.use('/tests', testRouter)
 
-app.listen(port, () => console.log('server started'))
+app.listen(port, () => console.log('server started on port 3000'))
